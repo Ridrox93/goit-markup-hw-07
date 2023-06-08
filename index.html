@@ -39,6 +39,77 @@
                             111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="burger-menu js-open-menu">
+                <svg class="burger-menu-icon" width="32" height="22">
+                    <use href="./images/icons.svg#icon-menu-burger"></use>
+                </svg>
+            </button>
+        </div>
+        <!-- mobile-menu -->
+
+        <div class="mobile-menu js-menu-container is-open">
+            <div class="mobile-menu-container container">
+
+                <button type="button" class="modal-close-btn  modal-close-btn-header-menu js-close-menu">
+                    <svg class="modal-close-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#close-black "></use>
+                    </svg>
+                </button>
+                <!-- menu-list -->
+
+                <ul class="mobile-menu-list list">
+                    <li class="mobile-menu-item link"><a class="mobile-menu-link link stepler"
+                            href="./index.html">Studio</a></li>
+                    <li class="mobile-menu-item  link"><a class="mobile-menu-link link "
+                            href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="mobile-menu-item  link"><a class="mobile-menu-link link" href="">Contacts</a></li>
+                </ul>
+
+                <!--mobile- adres  -->
+
+                <ul class="mobile-address-list list">
+                    <li class="mobile-contact-tel "><a class="adress-link-mail-tel link mobile-tel"
+                            href="tel:+110001111111">+11 (000)
+                            111-11-11</a></li>
+                    <li class="mobile-contact-mail "><a class="adress-link-mail-tel link mobile-mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+
+                </ul>
+
+                <!--social list-->
+                <ul class="list mobil-social-list">
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg class="social-list-icon" width="16" height="16">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg class="social-list-icon" width="16" height="16">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg class="social-list-icon" width="16" height="16">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg class="social-list-icon" width="16" height="16">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </header>
     <main>
@@ -112,12 +183,15 @@
             <div class="container our-work-container">
                 <h2 class="title-second our-work-title">What are we doing</h2>
                 <ul class="our-work-list list">
-                    <li class="our-work-list-item"><img src="./images/what_are_we_doing/img-1.jpg" alt="monitor"
-                            width="360" height="300"></li>
-                    <li class="our-work-list-item"><img src="./images/what_are_we_doing/img-2.jpg" alt="four phones"
-                            width="360" height="300"></li>
-                    <li class="our-work-list-item"><img src="./images/what_are_we_doing/img-3.jpg"
-                            alt="laptop and phones" width="360" height="300">
+                    <li class="our-work-list-item"><img
+                            srcset="./images/what_are_we_doing/img-1.jpg 1x, ./images/what_are_we_doing/img-1@2x.jpg 2x"
+                            src="./images/what_are_we_doing/img-1.jpg" alt="monitor" width="360" height="300"></li>
+                    <li class="our-work-list-item"><img
+                            srcset="./images/what_are_we_doing/img-2.jpg 1x, ./images/what_are_we_doing/img-2@2x.jpg 2x"
+                            src="./images/what_are_we_doing/img-2.jpg" alt="four phones" width="360" height="300"></li>
+                    <li class="our-work-list-item"><img
+                            srcset="./images/what_are_we_doing/img-3.jpg 1x, ./images/what_are_we_doing/img-3@2x.jpg 2x"
+                            src="./images/what_are_we_doing/img-3.jpg" alt="laptop and phones" width="360" height="300">
                     </li>
                 </ul>
             </div>
@@ -128,11 +202,12 @@
                 <h2 class="title-second workers-title">Our Team</h2>
                 <ul class="workers list">
                     <li class="workers-item">
-                        <img src="./images/our_team/mark_guerrero.jpg" alt="employee photo" width="264" height="260">
+                        <img srcset="./images/our_team/mark_guerrero.jpg 1x, ./images/our_team/mark_guerrero@2x.jpg 2x"
+                            src="./images/our_team/mark_guerrero.jpg" alt="employee photo" width="264" height="260">
                         <div class="workers-description-in-list">
                             <h3 class="title-common workers-title-common">Mark Guerrero</h3>
                             <p class="common-text workers-text-common">Product Designer</p>
-                            <!--social list-->
+                            <!--social list -->
                             <ul class="social-list list">
                                 <li class="social-list-item">
                                     <a href="#" class="social-list-link">
@@ -166,7 +241,8 @@
                         </div>
                     </li>
                     <li class="workers-item">
-                        <img src="./images/our_team/tom_ford.jpg" alt="employee photo" width="264" height="260">
+                        <img srcset="./images/our_team/tom_ford.jpg 1x, ./images/our_team/tom_ford@2x.jpg 2x"
+                            src="./images/our_team/tom_ford.jpg" alt="employee photo" width="264" height="260">
                         <div class="workers-description-in-list">
                             <h3 class="title-common workers-title-common">Tom Ford</h3>
                             <p class="common-text workers-text-common">Frontend Developer</p>
@@ -204,11 +280,12 @@
                         </div>
                     </li>
                     <li class="workers-item">
-                        <img src="./images/our_team/camila_garcia.jpg" alt="employee photo" width="264" height="260">
+                        <img srcset="./images/our_team/camila_garcia.jpg 1x, ./images/our_team/camila_garcia@2x.jpg 2x"
+                            src="./images/our_team/camila_garcia.jpg" alt="employee photo" width="264" height="260">
                         <div class="workers-description-in-list">
                             <h3 class="title-common workers-title-common">Camila Garcia</h3>
                             <p class="common-text workers-text-common">Marketing</p>
-                            <!--social list-->
+                            <!-- social list -->
                             <ul class="social-list list">
                                 <li class="social-list-item">
                                     <a href="#" class="social-list-link">
@@ -242,7 +319,8 @@
                         </div>
                     </li>
                     <li class="workers-item">
-                        <img src="./images/our_team/daniel_wilson.jpg" alt="employee photo" width="264" height="260">
+                        <img srcset="./images/our_team/daniel_wilson.jpg 1x, ./images/our_team/daniel_wilson@2x.jpg 2x"
+                            src="./images/our_team/daniel_wilson.jpg" alt="employee photo" width="264" height="260">
                         <div class="workers-description-in-list">
                             <h3 class="title-common workers-title-common">Daniel Wilson</h3>
                             <p class="common-text workers-text-common">UI Designer</p>
@@ -342,7 +420,7 @@
             </div>
             <div class="footer-container-second-part">
                 <p class="footer-social-title">Social media</p>
-                <!--social list footer-->
+                <!-- social list footer -->
                 <ul class="social-list list social-list-footer">
                     <li class="social-list-item">
                         <a href="#" class="social-list-link social-list-link-dark">
@@ -459,11 +537,12 @@
                 </div>
                 <button type="submit" class="modal-form-submit-button">Send</button>
             </form>
-
-
         </div>
     </div>
+
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
+
 </body>
 
 
