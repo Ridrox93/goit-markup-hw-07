@@ -495,6 +495,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         min-width: 1200px;
         width: 1440px;
         max-height: 600px;
+        padding: 188px 0px;
     }
 }
 
